@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "7174c5f7-1e74-4c7c-b3f5-605e2b032362",
+		"name": "ExamenNewMan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NewMan",
+			"item": [
+				{
+					"name": "status",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "9ad59ce3-ee49-43ea-bc0e-5bbe54b3ec4f",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verificar el status\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.status).to.eql(\"Listos para el examen\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/status",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
