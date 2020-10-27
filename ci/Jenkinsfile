@@ -1,13 +1,15 @@
 pipeline{
     agent any
     stages{
-        stage ('Newman tests'){}
-        steps {
+        stage ('Newman tests'){
+            steps {
             sh '''
             cd api/newman
             newman run ExamenNewMan.postman_collection.json -e 
             HostExmane.postman_environment.json
             '''
+           }
+        
         }
     }
     
