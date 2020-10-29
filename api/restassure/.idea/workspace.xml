@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="253a0888-5e82-4341-8ce6-eba3f4d764dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/ExamenAutomation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/statusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restassure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/examen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/examen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/statusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/statusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/statusTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="C:/Users/XPC/Desktop/automation/ExamenAutomation/api/restassure/src/test/resources/examen.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -96,24 +95,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1109" height="314" key="GridCell.Tab.0.bottom" timestamp="1603993903385">
+    <state x="0" y="4" key="#Project_Structure" timestamp="1603999114284">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1109" height="314" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603993903385" />
-    <state width="1109" height="314" key="GridCell.Tab.0.center" timestamp="1603993903385">
+    <state x="0" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1603999114284" />
+    <state width="842" height="372" key="GridCell.Tab.0.bottom" timestamp="1604002251423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1109" height="314" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603993903385" />
-    <state width="1109" height="314" key="GridCell.Tab.0.left" timestamp="1603993903385">
+    <state width="842" height="372" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
+    <state width="842" height="372" key="GridCell.Tab.0.center" timestamp="1604002251423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1109" height="314" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603993903385" />
-    <state width="1109" height="314" key="GridCell.Tab.0.right" timestamp="1603993903385">
+    <state width="842" height="372" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
+    <state width="842" height="372" key="GridCell.Tab.0.left" timestamp="1604002251423">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1109" height="314" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603993903385" />
+    <state width="842" height="372" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
+    <state width="842" height="372" key="GridCell.Tab.0.right" timestamp="1604002251423">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="842" height="372" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
     <state x="0" y="88" key="Maven.ArtifactSearchDialog" timestamp="1603988557805">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

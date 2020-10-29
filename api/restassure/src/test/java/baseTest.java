@@ -23,9 +23,12 @@ public class baseTest {
     }
 
     //    this is to clean the request object
+
     @BeforeMethod
-    public void Setup(){
+    public void before(){
         request = RestAssured.given();
     }
 
 }
+
+
