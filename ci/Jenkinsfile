@@ -11,15 +11,15 @@ pipeline{
         
         }
 
-        stage ('Jmeter tests'){
-            steps {
-            sh '''
-            cd load/examen_TestPlan.jmx
-            jmeter -n -t examen_TestPlan.jmx
-            '''
-           }
+        // stage ('Jmeter tests'){
+        //     steps {
+        //     sh '''
+        //     cd load/examen_TestPlan.jmx
+        //     jmeter -n -t examen_TestPlan.jmx
+        //     '''
+        //    }
         
-        }
+        // }
     }
     
 }
