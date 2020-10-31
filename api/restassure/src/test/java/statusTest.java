@@ -8,18 +8,18 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class statusTest extends baseTest{
 
-    private static final String RESOURCE = "/";
+    private static String RESOURCE = "/v1/examen";
 
     @Test
     public void status_Test(){
-        request
-                .get(String.format("%sstatus", RESOURCE))
-                .then()
-                .statusCode(200)
-               // .header("Access-Control-Allow-Origin", equalTo("http://localhost"))
-                .body("id", equalTo(3),
-                        "status", equalTo("Listos para el examen"));
 
+        request
+
+                .when()
+                    .post(String.format("%s/status", RESOURCE))
+                .then()
+                    .statusCode(200)
+                    .body("status", equalTo("Listos para el examen"));
 
     }
 

@@ -22,8 +22,6 @@ public class baseTest {
         System.out.println(String.format("Running on %s environment", baseUrl));
     }
 
-    //    this is to clean the request object
-
     @BeforeMethod
     public void before(){
         request = RestAssured.given();

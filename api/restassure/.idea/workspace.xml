@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="253a0888-5e82-4341-8ce6-eba3f4d764dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/sameName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../load/examen_TestPlan.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/../../load/examen_TestPlan.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/statusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/statusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/examen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/examen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/statusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/statusTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +53,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\XPC\Desktop\automation\ExamenAutomation\api\restassure\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.sameName">
     <configuration name="C:/Users/XPC/Desktop/automation/ExamenAutomation/api/restassure/src/test/resources/examen.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="examen" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/examen.xml" />
@@ -62,9 +74,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sameName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="sameName" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statusTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="statusTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.sameName" />
         <item itemvalue="TestNG.C:/Users/XPC/Desktop/automation/ExamenAutomation/api/restassure/src/test/resources/examen.xml" />
+        <item itemvalue="TestNG.statusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -98,22 +134,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1603999114284" />
-    <state width="842" height="372" key="GridCell.Tab.0.bottom" timestamp="1604002251423">
+    <state x="241" y="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604105408445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="842" height="372" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
-    <state width="842" height="372" key="GridCell.Tab.0.center" timestamp="1604002251423">
+    <state x="241" y="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1604105408445" />
+    <state width="1142" height="372" key="GridCell.Tab.0.bottom" timestamp="1604108922257">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="842" height="372" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
-    <state width="842" height="372" key="GridCell.Tab.0.left" timestamp="1604002251423">
+    <state width="1142" height="372" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604108922257" />
+    <state width="1142" height="372" key="GridCell.Tab.0.center" timestamp="1604108922257">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="842" height="372" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
-    <state width="842" height="372" key="GridCell.Tab.0.right" timestamp="1604002251423">
+    <state width="1142" height="372" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604108922257" />
+    <state width="1142" height="372" key="GridCell.Tab.0.left" timestamp="1604108922257">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="842" height="372" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604002251423" />
+    <state width="1142" height="372" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604108922257" />
+    <state width="1142" height="372" key="GridCell.Tab.0.right" timestamp="1604108922257">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1142" height="372" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604108922257" />
+    <state width="1142" height="372" key="GridCell.Tab.1.bottom" timestamp="1604108922149">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1142" height="372" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604108922149" />
+    <state width="1142" height="372" key="GridCell.Tab.1.center" timestamp="1604108922149">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1142" height="372" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1604108922149" />
+    <state width="1142" height="372" key="GridCell.Tab.1.left" timestamp="1604108922149">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1142" height="372" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1604108922149" />
+    <state width="1142" height="372" key="GridCell.Tab.1.right" timestamp="1604108922149">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1142" height="372" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1604108922149" />
     <state x="0" y="88" key="Maven.ArtifactSearchDialog" timestamp="1603988557805">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
