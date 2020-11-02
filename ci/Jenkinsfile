@@ -21,18 +21,17 @@ pipeline{
            }
         
         }
-
-        stage ('RestAssure tests'){
-            steps {
-            sh '''
-            cd api/restassure
-            mvn clean test
-            '''
-           }
-        
-        }
-
         
     }
     
 }
+
+//stage ('RestAssure tests'){
+            //steps {
+            //sh '''
+            //cd api/restassure
+            //mvn clean test
+            //'''
+           //}
+        
+        //}
