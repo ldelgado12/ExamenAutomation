@@ -19,7 +19,7 @@ public class baseTest {
         }
         RestAssured.baseURI = baseUrl;
 
-        System.out.println(String.format("Running on %s environment", baseUrl));
+        System.out.println(String.format("Corriendo en  %s ", baseUrl));
     }
 
     @BeforeMethod

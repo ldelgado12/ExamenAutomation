@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 13.198 s <<< FAILURE! - in TestSuite
+sameName(sameName)  Time elapsed: 4.528 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at sameName.sameName(sameName.java:18)
+
+Random_Test_WOAtho(statusTest)  Time elapsed: 4.051 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at statusTest.Random_Test_WOAtho(statusTest.java:32)
+
+status_Test(statusTest)  Time elapsed: 4.009 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at statusTest.status_Test(statusTest.java:19)
+

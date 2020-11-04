@@ -6,7 +6,8 @@
     <test name="Regression" >
         <classes>
             <class name="sameName" />
-            <class name="statusTest" />
+            <class name="statusTest"/>
+            <class name="randomName"/>
         </classes>
     </test>
 </suite>

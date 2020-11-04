@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Localhost]">
+  <parameter name="baseUrl" value="https://api-coffee-testing.herokuapp.com/"/>
+  <test thread-count="5" verbose="0" name="Regression(failed)">
+    <classes>
+      <class name="statusTest">
+        <methods>
+          <include name="Random_Test_WOAtho"/>
+          <include name="before"/>
+          <include name="status_Test"/>
+        </methods>
+      </class> <!-- statusTest -->
+      <class name="sameName">
+        <methods>
+          <include name="sameName"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- sameName -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Localhost] -->
